@@ -9,5 +9,6 @@ jobs:
         uses: ruby/setup-ruby@359bebbc29cbe6c87da6bc9ea3bc930432750108
         with:
           ruby-version: '3.1'
-      - run: ruby Takahashi.rb
-      - run: echo 'Takahashi'  
+      - name: Takahashi
+        run: ruby Takahashi.rb
+        run: echo 'Takahashi'  
