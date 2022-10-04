@@ -11,4 +11,4 @@ jobs:
           ruby-version: '3.1'
       - name: Takahashi
         run: ruby Takahashi.rb
-        run: echo 'Takahashi'  
+             echo 'Takahashi'  
