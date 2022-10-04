@@ -3,6 +3,7 @@ on: [push]
 jobs:  
   Anyway-Takahashi:  
     runs-on: ubuntu-latest  
-    steps:  
+    steps:
+      - run: ls -la
       - run: ruby Takahashi.rb
       - run: echo 'Takahashi'  
