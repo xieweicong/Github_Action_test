@@ -4,6 +4,6 @@ jobs:
   Anyway-Takahashi:  
     runs-on: ubuntu-latest  
     steps:
-      - run: ls -la
+      - users: action/checkout@v1
       - run: ruby Takahashi.rb
       - run: echo 'Takahashi'  
