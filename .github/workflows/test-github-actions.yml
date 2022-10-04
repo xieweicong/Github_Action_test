@@ -1,0 +1,8 @@
+name: test-github-actions  
+on: [push]  
+jobs:  
+  Anyway-Takahashi:  
+    runs-on: ubuntu-latest  
+    steps:  
+      - run: ruby Takahashi.ruby  
+      - run: echo 'Takahashi'  
