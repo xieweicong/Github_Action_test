@@ -1,6 +1,2 @@
-a = 1
-b = 2
-c = 5
-d = 3
-
-puts ((a+b) * (c-d))
+a, b, c, d = gets.split.map(&:to_i)
+puts (a+b) * (c-d)
